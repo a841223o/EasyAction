@@ -5,16 +5,29 @@
 [![License](https://img.shields.io/cocoapods/l/EasyAction.svg?style=flat)](https://cocoapods.org/pods/EasyAction)
 [![Platform](https://img.shields.io/cocoapods/p/EasyAction.svg?style=flat)](https://cocoapods.org/pods/EasyAction)
 
+
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Easy to add target Example:
+```swift
+btn.touchUpInside {
+    print("action")
+}
+btn.touchDown {
+    print("action")
+}
+```
 
 ## Requirements
 
+swift 4.2
+Xcode 10.0
+
 ## Installation
 
-EasyAction is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Using [CocoaPods](https://cocoapods.org).
+Add the following line to your Podfile:
 
 ```ruby
 pod 'EasyAction'
@@ -22,7 +35,7 @@ pod 'EasyAction'
 
 ## Author
 
-leo, leo@fox-tech.co
+ a841223o@gmail.com
 
 ## License
 
