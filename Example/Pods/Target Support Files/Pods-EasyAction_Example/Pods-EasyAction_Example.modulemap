@@ -1,0 +1,6 @@
+framework module Pods_EasyAction_Example {
+  umbrella header "Pods-EasyAction_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

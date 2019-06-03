@@ -7,12 +7,19 @@
 //
 
 import UIKit
-
+import EasyAction
 class ViewController: UIViewController {
-
+    @IBOutlet weak var btn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        btn.touchUpInside {
+           print("touchUpInside")
+        }
+        btn.touchDown {
+            print("touchDown")
+        }
+       
     }
 
     override func didReceiveMemoryWarning() {

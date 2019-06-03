@@ -1,0 +1,16 @@
+PODS:
+  - EasyAction (0.1.0)
+
+DEPENDENCIES:
+  - EasyAction (from `../`)
+
+EXTERNAL SOURCES:
+  EasyAction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyAction: a6ca3529c9caee23ca09feb87f66779d7b2d6c9a
+
+PODFILE CHECKSUM: 598ecab457ebc9dbc9188b75515890e268cb4bc4
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,22 @@
+{
+  "name": "EasyAction",
+  "version": "0.1.0",
+  "summary": "A short description of EasyAction.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/leo/EasyAction",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leo": "leo@fox-tech.co"
+  },
+  "source": {
+    "git": "https://github.com/leo/EasyAction.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EasyAction/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module EasyAction {
+  umbrella header "EasyAction-umbrella.h"
+
+  export *
+  module * { export * }
+}
