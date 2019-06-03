@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: EasyAction is help you to add target so fast
                        DESC
 
   s.homepage         = 'https://github.com/a841223o/EasyAction'
