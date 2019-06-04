@@ -9,7 +9,9 @@
 
 ## Example
 
-Easy to add target Example:
+Easy to add target as Swift 5.1 
+
+Example:
 ```swift
 btn.touchUpInside {
     print("action")
