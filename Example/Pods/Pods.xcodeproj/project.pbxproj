@@ -15,8 +15,8 @@
 		8D80CCD322BA0DE40643C58B204700F2 /* EasyAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B296D7033CEB80AC17AA8CB41CE82 /* EasyAction-dummy.m */; };
 		93A89B49E0FCB0DEE9C43B422DBA0F20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		9BC568E3A6BF509A2EC4D42DDEF494C1 /* Pods-EasyAction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F161939078F0DB49842CF16508B5EC7 /* Pods-EasyAction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3E37502229FD7F600F76793 /* EasyActionBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E37501229FD7F600F76793 /* EasyActionBtn.swift */; };
-		B3E3750522A5230100F76793 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E3750422A5230100F76793 /* Target.swift */; };
+		B3E3755322A6141F00F76793 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E3755122A6141E00F76793 /* Target.swift */; };
+		B3E3755422A6141F00F76793 /* EasyActionBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E3755222A6141F00F76793 /* EasyActionBtn.swift */; };
 		D67728D91A90AA3040C27D9E15DAA2DF /* Pods-EasyAction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B31560C16C5C7EB3DA15849958684 /* Pods-EasyAction_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +61,8 @@
 		AFB25DAF617841BE889F720288226599 /* Pods-EasyAction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B00D154902C98A1B5E96BE399AA38742 /* Pods-EasyAction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B21A480269BBF9AFEFDDE23E8C073F2D /* EasyAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyAction.xcconfig; sourceTree = "<group>"; };
-		B3E37501229FD7F600F76793 /* EasyActionBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyActionBtn.swift; sourceTree = "<group>"; };
-		B3E3750422A5230100F76793 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		B3E3755122A6141E00F76793 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Target.swift; path = EasyAction/Target.swift; sourceTree = "<group>"; };
+		B3E3755222A6141F00F76793 /* EasyActionBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasyActionBtn.swift; path = EasyAction/EasyActionBtn.swift; sourceTree = "<group>"; };
 		B41E0048287202A1537BEA5C5C93A71C /* Pods-EasyAction_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyAction_Example-Info.plist"; sourceTree = "<group>"; };
 		C3FE3A58B31EA8F4AEC347AA9B8F1526 /* Pods-EasyAction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyAction_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C447522207CDE5E65B0734B8A874DC29 /* EasyAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAction-umbrella.h"; sourceTree = "<group>"; };
@@ -112,7 +112,8 @@
 		23585DA104250B178FEB698E0180BE9B /* EasyAction */ = {
 			isa = PBXGroup;
 			children = (
-				B3E37503229FD84A00F76793 /* Classes */,
+				B3E3755222A6141F00F76793 /* EasyActionBtn.swift */,
+				B3E3755122A6141E00F76793 /* Target.swift */,
 				A1CAF659E948360110A26CEBD5A3D003 /* Pod */,
 				A6AB7CE45200137674FE21A138C7FB2F /* Support Files */,
 			);
@@ -176,15 +177,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EasyAction";
-			sourceTree = "<group>";
-		};
-		B3E37503229FD84A00F76793 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B3E37501229FD7F600F76793 /* EasyActionBtn.swift */,
-				B3E3750422A5230100F76793 /* Target.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		C19B11BC1EA11654F0E48F4620991D2A /* Targets Support Files */ = {
@@ -326,6 +318,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					2FC013BF788F5CA94942A22322C79143 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -391,8 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E3750522A5230100F76793 /* Target.swift in Sources */,
-				B3E37502229FD7F600F76793 /* EasyActionBtn.swift in Sources */,
+				B3E3755422A6141F00F76793 /* EasyActionBtn.swift in Sources */,
+				B3E3755322A6141F00F76793 /* Target.swift in Sources */,
 				8D80CCD322BA0DE40643C58B204700F2 /* EasyAction-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B21A480269BBF9AFEFDDE23E8C073F2D /* EasyAction.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -507,6 +505,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -707,6 +706,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B21A480269BBF9AFEFDDE23E8C073F2D /* EasyAction.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

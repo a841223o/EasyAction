@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyAction'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'easy to add target in uicontrol'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: EasyAction is help you to add target so fast
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'EasyAction/**/*.swift'
+  s.source_files = 'EasyAction/EasyAction/**/*.swift'
   
   # s.resource_bundles = {
   #   'EasyAction' => ['EasyAction/Assets/*.png']
