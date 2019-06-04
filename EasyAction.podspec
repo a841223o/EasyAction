@@ -31,7 +31,7 @@ TODO: EasyAction is help you to add target so fast
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'EasyAction/EasyAction/**/*.swift'
+  s.source_files = 'EasyAction/**/*.swift'
   
   # s.resource_bundles = {
   #   'EasyAction' => ['EasyAction/Assets/*.png']
